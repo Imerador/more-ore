@@ -15,9 +15,9 @@
 
 setInterval (function() {
   $('.weak-spot').trigger('click');
-let startButton = document.querySelector("body > div.page-container > div.game-container > div.game-container-left > div.game-container-left-top > div.game-container-left-top-middle > div.ore-wrapper > div.ore-sprite-wrapper > div > div");
+let weakspot = document.querySelector("body > div.page-container > div.game-container > div.game-container-left > div.game-container-left-top > div.game-container-left-top-middle > div.ore-wrapper > div.ore-sprite-wrapper > div > div");
  for (let i = 0; i < 100; i++) {
-startButton.click(); }
+weakspot.click(); }
     // $('weak-spot').click();
 }, 1000);
 
